@@ -1,0 +1,37 @@
+.nf-header {
+  font-weight: 600;
+  background-color: #f2f2f2;
+  display: flex;
+  place-items: start;
+  height: 85px;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-direction: row;
+  place-items: start;
+
+  &__logo-icon {
+    width: 250px;
+    height: auto;
+  }
+
+  &__person-icon {
+    width: 125px;
+    height: 30px;
+  }
+}
+
+.left-side-heading {
+  padding-left: 20px;
+  a {
+    width: 200px;
+    height: auto;
+    display: inline-block;
+  }
+}
+
+.centered-heading span {
+  font-size: 22px;
+  font-weight: 800;
+}

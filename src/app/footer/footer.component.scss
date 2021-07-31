@@ -1,0 +1,28 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 85px;
+    text-align: center;
+    font-weight: 600;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: row;
+    place-items: start;
+    justify-content: flex-end
+ }
+ 
+ .btn{
+    background-color: #04AA6D;
+    border-radius: 30px;
+    padding: 20px 120px;
+    text-align: center;
+    border: none;
+    color: white;
+    width: auto;
+ }
